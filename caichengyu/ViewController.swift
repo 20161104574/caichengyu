@@ -573,12 +573,21 @@ class ViewController: UIViewController {
         }
     }
     
+
+    @IBAction func next(_ sender: Any) {
+        
+    }
+    
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let img = UIImage(named: "Pic1")
+        let img = UIImage(named: "")
         let imgView = UIImageView(image:img)
         self.view.addSubview(imgView)
+        
         
     }
 
